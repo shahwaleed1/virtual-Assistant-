@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 700px;
+    height: 100hv;
+    max-height: 900px;
+    background-color: black;
+}
+.heading{
+    color: #09C0FF;
+    /* margin: 10px 0; */
+    /* font-size: 2.5rem; */
+    font-family: Impact, sans-serif;
+    font-weight: 400;
+}
+.small{
+    font-size: 1.4rem;
+    color: white;
+}
+.shahni{
+    color: orange;
+}
+.logo{
+    max-width: 300px;
+    min-width: 300px;
+    /* filter: drop-shadow(0px 0px 10px gray); */
+    /* animation: floatUpDown 2s infinite alternate ease-in-out; */
+}
+
+@keyframes floatUpDown {
+    0% {
+        margin-top: 10px;
+    }
+    50% {
+        margin-top: -30px;
+    }
+    100% {
+        margin-top: 10px;
+    }
+}
+
+#voicePic{
+    /* margin-top: 20px; */
+    width: 150px;
+    display: none;
+}
+#btn{
+    width: 5rem;
+    height: 5rem;
+    padding: 1rem;
+    border-radius: 50%;
+    border: 2px solid #09C0FF;
+    background-color: rgb(234, 245, 255);
+    /* font-weight: ; */
+    /* border-color: linear-gradient(to orange #09C0FF); */
+    /* background: linear-gradient(to right, orange, #09C0FF); */
+    transition: all 0.2s;
+}
+#btn:hover{
+    cursor: pointer;
+    background-color: rgb(229, 242, 254);
+    box-shadow: 0 0 15px #09C0FF;
+    /* color: #09C0FF; */
+}
+
+#content{
+    color: rgb(205, 253, 13);
+    margin: 1rem 0;
+    font-family: sans-serif;
+    /* font-weight: 600; */
+}
